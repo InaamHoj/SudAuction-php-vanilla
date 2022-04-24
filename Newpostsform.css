@@ -1,0 +1,117 @@
+body {
+  font-family: "Rochester", sans-serif;
+}
+.containerfluid {
+  padding: 0%;
+  width: fit-content;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  background-color: palevioletred;
+  opacity: 0.7;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  justify-content: center;
+  height: 20px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+a:visited {
+  color: white;
+}
+
+.col-9 {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  position: absolute;
+  right: 0;
+}
+
+.droite {
+  display: inline-flex;
+  padding-right: 60px;
+  padding-left: 20px;
+}
+
+.col-3 {
+  position: absolute;
+  padding-right: 30px;
+  padding-left: 60px;
+  left: 0;
+}
+.maincontainer {
+  display: flex;
+  flex-direction: row;
+  padding-top: 40px;
+}
+.img {
+  width: 100%;
+}
+
+.imgcontainer {
+  width: 50%;
+}
+.newpostform {
+  text-align: center;
+  background-color: rgba(35, 155, 164, 0.76);
+  opacity: 0.7;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+}
+
+#newposttitle {
+  font-size: 30px;
+  color: aliceblue;
+}
+
+#newpostinput {
+  border: none;
+  background-color: blanchedalmond;
+  border-radius: 5px;
+  height: 40px;
+  width: 50%;
+}
+
+.fas {
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.navbarfoot {
+  display: flex;
+  flex-direction: row;
+  background-color: palevioletred;
+  opacity: 0.7;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  justify-content: center;
+  height: 20px;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.col-4 {
+  position: absolute;
+  padding-right: 30px;
+  padding-left: 60px;
+  left: 0;
+}
+
+.col-8 {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  position: absolute;
+  right: 0;
+}
